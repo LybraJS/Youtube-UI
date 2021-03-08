@@ -81,3 +81,43 @@ code {
   cursor: pointer;
 }
 /* End of Header Component */
+
+/* Start of Sidebar Component */
+
+.menu-field {
+  display: flex;
+  align-items: center;
+  margin: 0 0 16px 0;
+}
+
+.menu-field > p {
+  font-size: 12px;
+}
+
+.menu-field > * {
+  margin: 16px 0 0 16px;
+}
+
+.sidebar {
+  position: relative;
+  top: 64px;
+  bottom: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.sidebar > * {
+  cursor: pointer;
+}
+
+.sidebar-lower-menu {
+  border-bottom: 1px solid lightgray;
+}
+
+.sidebar-upper-menu {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+/* End of Sidebar Component */
