@@ -51,6 +51,7 @@ code {
   width: 128px;
   border-left: 1px solid lightgray;
   cursor: pointer;
+  color: #444444;
 }
 
 .header-left {
@@ -74,6 +75,7 @@ code {
 
 .header-right > * {
   cursor: pointer;
+  color: #444444;
 }
 
 .yt-icon {
@@ -87,7 +89,8 @@ code {
 .menu-field {
   display: flex;
   align-items: center;
-  margin: 0 0 16px 0;
+  margin: 8px 0 8px 0;
+  padding: 8px 0 8px 0;
 }
 
 .menu-field > p {
@@ -95,7 +98,12 @@ code {
 }
 
 .menu-field > * {
-  margin: 16px 0 0 16px;
+  margin: 0 0 0 16px;
+  color: #444444;
+}
+
+.menu-field:hover {
+  background-color: lightgray;
 }
 
 .sidebar {
