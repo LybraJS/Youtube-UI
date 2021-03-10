@@ -16,6 +16,7 @@ code {
 /* Start of Header Component */
 .header-container {
   position: fixed;
+  z-index: 100;
   width: 100%;
   height: 64px;
   display: flex;
@@ -108,8 +109,8 @@ code {
 }
 
 .sidebar {
-  /*position: fixed;
-  top: 64px;
+  position: fixed;
+  /*top: 64px;
   bottom: 0;*/
   width: 200px;
   height: 100vh;
@@ -139,33 +140,85 @@ code {
   align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
-  overflow: auto;
-  width: max-content;
-  padding: 32px;
+  overflow: visible;
+  margin-right: 200px;
+  width: 100vw;
+  left: 200px;
 
-  background-color: lightgreen;
+  background-color: #f2f2f2;
 }
 
 .videos-container {
-  background-color: lightpink;
-
-  width: 100px;
-  height: 100px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 200px;
+  margin-bottom: 64px;
+  border-bottom: 5px solid lightgray;
 }
 
 .vid-container {
-  display
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow: visible;
+  width: 244px;
+  height: 244px;
+  margin: 8px;
+  background-color: #f2f2f2;
+
+  cursor: pointer;
 }
 
 /* End of Videos Component */
 
 /* Start of MainPage Component */
 
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.info {
+  width: 100%;
+  margin: 0 0 0 45px;
+}
+
+.info p {
+  font-size: 12px;
+  color: #575757;
+  margin-top: -10px;
+}
+
 .main-page {
-  position: fixed;
+  position: relative;
+  overflow: auto;
   width: 100vw;
   display: flex;
   top: 64px;
+}
+
+.thumbnail {
+  width: auto;
+  height: 50%;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  align-items: flex-end;
+  height: 44px;
+  width: 100%;
+}
+
+.title p {
+  font-weight: bold;
+  font-size: 12px;
+  padding: 8px;
 }
 
 /* End of MainPage Component */
