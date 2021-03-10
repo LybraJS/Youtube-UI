@@ -108,9 +108,9 @@ code {
 }
 
 .sidebar {
-  position: relative;
+  /*position: fixed;
   top: 64px;
-  bottom: 0;
+  bottom: 0;*/
   width: 200px;
   height: 100vh;
   background-color: #fff;
@@ -130,3 +130,42 @@ code {
 }
 
 /* End of Sidebar Component */
+
+/* Start of Videos Component */
+
+.videos {
+  /*position: fixed;*/
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow: auto;
+  width: max-content;
+  padding: 32px;
+
+  background-color: lightgreen;
+}
+
+.videos-container {
+  background-color: lightpink;
+
+  width: 100px;
+  height: 100px;
+}
+
+.vid-container {
+  display
+}
+
+/* End of Videos Component */
+
+/* Start of MainPage Component */
+
+.main-page {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  top: 64px;
+}
+
+/* End of MainPage Component */

@@ -3,13 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 import Header from './components/Header';
-import Sidebar from './components/Sidebar'
+import MainPage from './components/MainPage';
 
 function App() {
   return (
    <>
     <Header/>
-    <Sidebar/>
+    <MainPage/>
    </>
   );
 }
